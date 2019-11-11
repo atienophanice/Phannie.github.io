@@ -1,0 +1,65 @@
+body{
+    
+        background-image: url("http://www.caribbean360.com/wp-content/uploads/2016/09/etana.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color:overlay;
+        font-family: 'Baloo Bhaina', cursive;
+        
+    }
+    nav{
+    text-align: right;
+    justify-content:space-around;
+    list-style-type:none;
+    
+    }
+    li{
+        display:inline;
+        justify-content: space-around;
+        padding:20px;
+        list-style-type: none;
+        background-color: aquamarine;
+        
+;     background-attachment: fixed;
+     background-size: cover;
+     background-repeat:no-repeat;
+     
+
+    }  
+
+li{
+    display:inline;
+    justify-content: space-around;
+    padding:20px;
+    list-style-type: none;
+    
+}
+.contacts{
+    text-align: center;
+    font-size:200%;
+    color:blue;
+
+    font-family: 'Shrikhand', cursive;
+    
+
+}
+h2{
+    
+    text-align: center;
+    color:floralwhite;
+    font-size:bold;
+    font-size: 40px;
+}
+#nairobi{
+display:flex;          
+text-align: left;
+font-size: 200%;
+}
+img{
+    float:left;
+}
+    
+}
+
+    
