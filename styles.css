@@ -1,76 +1,208 @@
+*{
+    
+    padding:5px;
+    margin:0;
+    
+    
+}
 body{
-    background-image: url("http://www.caribbean360.com/wp-content/uploads/2016/09/etana.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("https://image.freepik.com/free-psd/modern-wood-texture-background-design_1022-73.jpg");
+    background-attachment: inherit;
     background-size: cover;
-    color:overlay;
-    font-family: 'Baloo Bhaina', cursive;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+nav>ul>li{
+display:inline-block;
+list-style-type:none;
+padding:10px;
+}
+nav>ul{
+    text-align: center;
+
 }
 nav{
-text-align: right;
-justify-content:space-around;
-list-style-type:none;
+    margin:10px 0;
+   margin-right: 0%;
+    padding:15px;
+    width:100%;
+    height:3% auto;
+    background-color:aquamarine;
+    position:fixed;
+    
+}
+nav>ul{
+    text-align: center;
 
 }
 li{
-    display:inline;
-    justify-content: space-around;
-    padding:20px;
-    list-style-type: none;
-    background-color:aquamarine;
+    font-size: 25px;
+    }
+nav>ul>li>a:hover{
+    text-decoration: none;
 }
-.about{
-    text-align: center;
+nav>ul>li>a{
+    text-transform: uppercase;
+    text-decoration: none;
 }
-.color-overlay{
-    width:100%;
-    height:100%;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    opacity:0.2;
-    background:rgb(81, 0, 128);
-    background:cover;
+.about{ 
+    background-image: url("https://bit.ly/2KoIEuQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border:transperent gray;
+    margin-top:5%;
+    align-content: center;
+    font-size: 20px;
+    padding-bottom: 10%;
+    padding-left:20%;
+    border-radius:15px;
+    height:3%px;
 }
-h1{
-    text-align:center;
-    font-size:150px;
-    color:blue;
-    font-size: 100px;
-    font-style: oblique;
-    text-transform: uppercase; 
-    background-color: goldenrod;
-}
-th{
+#girls>p{
     
-    text-align: left;
-    
-}
 
-#two{
-    display:flex;
     text-align: left;
-    justify-content:space-between;
-    flex-direction: column;
     font-size: 50px;
-    flex-flow:row wrap;
-    color:blueviolet;
-
-
-    
-}
-p{
-    font-size: 40px;
-    padding-bottom: 100px;
     color:white;
 
 }
-th td{
-    border:solid grey;
+h2{
+    text-align: center;
+    color:blue;
+    font-size: 80px;
+    padding-top:20%;
+    padding-bottom:20%;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+
+
 }
+
+
+
+th{
+    
+text-align: center;
+    font-size: 20px;
+        
+}
+td{
+    font-size: 30px;
+    padding-right:120px;
+    
+    
+
+}
+.two{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+    
+
 p{
-    font-size: bold;
+    font-size:15px;
+    margin-top:4px;
+    color:black;
+
 }
+
+
+    
+
+ .image{
+    display:flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin:2%;
+    padding-bottom: 20px;
+    border-radius:40px;
+
+     
+     
+ }
+ footer{
+     text-align: center;
+     font-size:50px;
+    border:grey trasparent;
+    border-radius:45px;
+     background-color:gray;
+ }
+ h1{
+     margin-top: 2px;
+     text-align: center;
+     text-decoration-color: bisque;
+     background-color: thistle;
+     border-radius:45px;
+     
+ }
+
  
+ #one{
+     border:grey solid;
+     margin:2%;
+     padding-bottom:1%;
+     border-style: outset;
+     border-radius:40px;
+     background-color:palevioletred;
+    
+ }
+ #two{
+     border:gray solid;
+     margin:2%;
+     border-style:inset;
+     background-color:palevioletred;
+     border-radius: 40px;
+ }
+ #third{
+     border:grey solid;
+     margin:2%;
+     border-radius:40px;
+     border-style:inset;
+     background-color:palevioletred;
+     padding-top: 45px;
+
+ }
  
+ #four{
+     border:gray solid;
+     margin:2%;
+     border-radius:40px;
+     background-color:palevioletred;
+ }
+ #five{
+     border:gray solid;
+     margin:2%;
+     border-radius: 40px;
+     background-color:palevioletred;
+ }
+ #six{
+     border:gray solid;
+     margin:2%;
+     border-radius: 40px;
+     background-color:palevioletred;
+ }
+
+ 
+ .motive,contacts{
+    background-color:whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+ }
+ #contacts,p{
+     font-size: 20px;
+ }
+.about p{
+    font-size: 20px;
+}
+    
+}
